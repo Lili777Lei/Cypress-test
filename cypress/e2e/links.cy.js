@@ -28,6 +28,4 @@ describe('test the links', () => {
     cy.get('#menu > :nth-child(2) > :nth-child(1) > a').click();
     cy.url().should('include','gallery');
   })
-
-
 })
