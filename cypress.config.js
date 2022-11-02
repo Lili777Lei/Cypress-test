@@ -13,7 +13,7 @@ module.exports = defineConfig({
     
   },
   env: {
-    managerToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hbmFnZXJAYWRtaW4uY29tIiwicm9sZSI6Im1hbmFnZXIiLCJpZCI6MywiaWF0IjoxNjY2OTE3ODIzLCJleHAiOjE2NzQ2OTM4MjN9.v-CDd--7s--bQbzibrfKoXgpC-_jNVYb7I2lZxFCapw',
+    managerToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hbmFnZXJAYWRtaW4uY29tIiwicm9sZSI6Im1hbmFnZXIiLCJpZCI6MywiaWF0IjoxNjY3MjcyOTM5LCJleHAiOjE2NzUwNDg5Mzl9.wy02uPfHipIHcYEssN_HaY_mf3WyzY8WZFrUvJKmXjY',
     prod:'http://cms.chtoma.com',
   }
 });
