@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-import { data } from "cypress/types/jquery"
+
 
 
 context('stub login',() => {
@@ -13,8 +13,12 @@ context('stub login',() => {
         })
         cy.intercept('POST','/api/Login',{
             statusCode: 500,
-            msg: 'server error',
-            data: { null
+
+            body: { 
+                data: null,
+                msg: 'server error',
+                code: 500,
+
 
             } // data 是null ？
 
